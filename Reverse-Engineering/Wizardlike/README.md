@@ -27,4 +27,4 @@ picoCTF{ur_4_w1z4rd_4844AD6F}
 
 ## Detailed Solution
 
-Lorem ipsum
+We can start off like usual, with decompiling with Ghidra then debugging with gdb. 
