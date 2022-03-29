@@ -31,5 +31,5 @@ picoCTF{C4354R_C1PH3R_15_4_817_0U7D473D_84AA1DA8}
 ## Detailed Solution
 
 Searching up the Diffie-Hellman key exchange algorithm in Google, one of the many first results we get is [Diffie-Hellman](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange). After seeing this, we see that what we're looking for is the value $s$. In this challenge, we are given $(g, p, a, b)$. We can start by computing $B$ which is $g ^ b$ *mod p* . Then our secret $s = B ^ a$ *mod p*. Now we can use this value as the shift in our Caeser Cipher. <p align="center">
-![logo](Diffie-Hellman/Screen Shot 2022-03-29 at 5.28.56 PM.png "Raspberry pi")
+![logo](https://github.com/Thinker28/picoCTF2021/blob/main/Diffie-Hellman/Screen%20Shot%202022-03-29%20at%205.28.56%20PM.png "Raspberry pi")
 </p>
