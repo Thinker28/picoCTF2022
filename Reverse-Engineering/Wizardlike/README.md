@@ -22,7 +22,7 @@ We decompile the ELF Binary given to us, using ghidra. Then we find a related fu
 ## Flag
 
 ```
-
+picoCTF{ur_4_w1z4rd_4844AD6F}
 ```
 
 ## Detailed Solution
