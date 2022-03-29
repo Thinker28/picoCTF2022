@@ -27,4 +27,4 @@ picoCTF{ur_4_w1z4rd_4844AD6F}
 
 ## Detailed Solution
 
-We can start off like usual, with decompiling with Ghidra then debugging with gdb. 
+We can start off like usual, with decompiling with Ghidra then debugging with gdb. Since this is a stripped ELF Binary, we have to be a bit more careful since there will be no original function names. After opening it up in Ghidra, we can start by going through some functions in the Symbol Tree.
