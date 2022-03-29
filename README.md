@@ -13,14 +13,7 @@ If you'd like to try some of these problems yourself, head on over to [PicoGym](
 
 |Question|Points|
 |--------|------|
-|[Mod 26](./Cryptography/Mod%2026/Mod%2026.md)|10|
-|[Mind your Ps and Qs](./Cryptography/Mind%20your%20Ps%20and%20Qs/Mind%20your%20Ps%20and%20Qs.md)|20|
-|[New Caesar](./Cryptography/New%20Caesar/New%20Caesar.md)|60|
-|[Dachshund Attacks](./Cryptography/Dachshund%20Attacks/dachshundattacks.md)|80|
-|[Pixelated](./Cryptography/Pixelated/Pixelated.md)|100|
-|[Play Nice](./Cryptography/Play%20Nice/Play%20Nice.md)|110|
-|[It is my Birthday 2](./Cryptography/It%20is%20my%20Birthday%202/It%20is%20my%20Birthday%202.md)|170|
-|[New Vignere](./Cryptography/New%20Vignere/New%20Vignere.md)|300|
+|[Diffie Hellman](./Cryptography/Diffie-Hellman)|200|
 
 </details>
 
