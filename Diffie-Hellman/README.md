@@ -30,4 +30,6 @@ picoCTF{C4354R_C1PH3R_15_4_817_0U7D473D_84AA1DA8}
 
 ## Detailed Solution
 
-Searching up the Diffie-Hellman key exchange algorithm in Google, one of the many first results we get is [Diffie-Hellman](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange). After seeing this, we see that what we're looking for is the value $s$. In this challenge, we are given $(g, p, a, b)$. We can start by computing $B$ which is $g ^ b$ *mod p* . Then our secret $s = B ^ a$ *mod p*. Now we can use this value as the shift in our Caeser Cipher. ![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
+Searching up the Diffie-Hellman key exchange algorithm in Google, one of the many first results we get is [Diffie-Hellman](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange). After seeing this, we see that what we're looking for is the value $s$. In this challenge, we are given $(g, p, a, b)$. We can start by computing $B$ which is $g ^ b$ *mod p* . Then our secret $s = B ^ a$ *mod p*. Now we can use this value as the shift in our Caeser Cipher. <p align="center">
+![logo](https://www.raspberrypi.org/app/uploads/2018/03/RPi-Logo-Reg-SCREEN-199x250.png "Raspberry pi")
+</p>
