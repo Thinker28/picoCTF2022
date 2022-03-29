@@ -17,7 +17,7 @@ Download the game.
 
 ## Summary
 
-We decompile the ELF Binary given to us, using ghidra. Then we find a related function that checks for coordinate bounds, we can change the function in the binary and run it with the new patched binary.
+We decompile the ELF Binary given to us, using ghidra. Then we find a related function that checks for coordinate bounds, we can change the function in the binary and run it with the new patched binary to get the flag hidden with ascii art.
 
 ## Flag
 
