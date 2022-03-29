@@ -40,7 +40,7 @@ If you'd like to try some of these problems yourself, head on over to [PicoGym](
 
 |Question|Points|
 |--------|------|
-|[Wizardlike](./Wizardlike/README.md)|500|
+|[Wizardlike](./Reverse-Engineering/Wizardlike/README.md)|500|
 
 
 </details>
