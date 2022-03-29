@@ -9,22 +9,6 @@ If you'd like to try some of these problems yourself, head on over to [PicoGym](
 
 <details>
 
-<summary>General Skills</summary>
-
-|Question|Points|
-|--------|------|
-|[Obedient Cat](./General%20Skills/Obedient%20Cat/ObedientCat.md)|5|
-|[Python Wrangling](./General%20Skills/Python%20Wrangling/Python%20Wrangling.md)|10|
-|[Wave a flag](./General%20Skills/Waving%20Flag/WavingFlag.md)|10|
-|[Nice netcat...](./General%20Skills/Nice%20netcat/Nice%20netcat.md)|15|
-|[Static ain't always noise](./General%20Skills/Static%20ain't%20always%20noise/staticain'talwaysnoise.md)|20|
-|[Tab, Tab, Attack](./General%20Skills/Tab%2C%20Tab%2C%20Attack/Tab%2C%20Tab%2C%20Attack.md)|20|
-|[Magikarp Ground Mission](./General%20Skills/Magikarp%20Ground%20Mission/Magikarp%20Ground%20Mission.md)|30|
-
-</details>
-
-<details>
-
 <summary>Cryptography</summary>
 
 |Question|Points|
@@ -82,11 +66,8 @@ If you'd like to try some of these problems yourself, head on over to [PicoGym](
 
 |Question|Points|
 |--------|------|
-|[Transformation](./Reverse%20Engineering/Transformation/Transformation.md)|20|
-|[keygenme-py](./Reverse%20Engineering/keygenme-py/keygenme-py.md)|30|
-|[crackme-py](./Reverse%20Engineering/crackme-py/crackme-py.md)|30|
-|[speeds and feeds](./Reverse%20Engineering/speeds%20and%20feeds/speeds%20and%20feeds.md)|50|
-|[Shop](./Reverse%20Engineering/Shop/Shop.md)|50|
+|[Wizardlike](./Wizardlike/README.md)|500|
+
 
 </details>
 
