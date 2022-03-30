@@ -31,10 +31,26 @@ We can start off like usual, with decompiling with Ghidra then debugging with gd
 ![logo](https://github.com/Thinker28/picoCTF2021/blob/main/Reverse-Engineering/Wizardlike/Screen%20Shot%202022-03-29%20at%207.12.50%20PM.png "Raspberry pi")
 </p>After going through a few, FUN_001015ac seems interesting.
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+```c
+undefined8 FUN_001015ac(int param_1,int param_2)
+
+{
+  undefined8 uVar1;
+  
+  if ((((param_1 < 100) && (param_2 < 100)) && (-1 < param_1)) && (-1 < param_2)) {
+    if (((&DAT_0011fea0)[(long)param_2 * 100 + (long)param_1] == '#') ||
+       ((&DAT_0011fea0)[(long)param_2 * 100 + (long)param_1] == ' ')) {
+      uVar1 = 0;
+    }
+    else {
+      uVar1 = 1;
+    }
+  }
+  else {
+    uVar1 = 0;
+  }
+  return uVar1;
+}
 ```
 
 It seems to be checking if that (row, col) is valid. Checking, if it's a wall and if it's in bounds. We can now assume, that we need to edit the return value to true always, to be able to go through walls and get through parts we normally couldn't go through. 
