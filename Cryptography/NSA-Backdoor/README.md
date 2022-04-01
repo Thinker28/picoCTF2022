@@ -16,7 +16,7 @@
 
 ## Summary
 
-We use Pohlig p-1 to factor our modulus *n*, then we can take the discrete log in the order of p(It's prime factor).
+We use Pollard p-1 to factor our modulus *n*, then we can take the discrete log in the order of p(It's prime factor).
 
 ## Flag
 
@@ -26,7 +26,7 @@ We use Pohlig p-1 to factor our modulus *n*, then we can take the discrete log i
 
 ## Detailed Solution
 
-We see that prmies are getting generated in the same was as the Very Smooth challenge, hence we can use Pohlig p-1 to factorize N.
+In gen.py, we see that prmies are getting generated in the same was as the Very Smooth challenge, hence we can use Pollard p-1 to factorize N.
 
 ```python
 import math
@@ -60,3 +60,4 @@ q = int(num//p)
 
 ans.append(q)
 ```
+Now after doing some research, we get [Backdoor](https://crypto.stackexchange.com/questions/32415/how-does-a-non-prime-modulus-for-diffie-hellman-allow-for-a-backdoor) as a result. Now this article tells us that we can instead of doing discrete log in the field of N, we can do it in the field of a factor of N(Aka P or Q). Turns out, this will be the flag! So now we can utilize the discrete_log() function in sage for our advantage and convenience.
