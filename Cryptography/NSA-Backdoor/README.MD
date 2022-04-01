@@ -6,16 +6,17 @@
 
 ## Description
 
-> Lorem ipsum
+> I heard someone has been sneakily installing backdoors in open-source implementations of Diffie-Hellman... I wonder who it could be... ;)
 
 
 ## Attached Files
 
-- Lorem ipsum
+- gen.py
+- output.txt
 
 ## Summary
 
-Lorem ipsum
+We use Pohlig p-1 to factor our modulus *n*, then we can take the discrete log in the order of p(It's prime factor).
 
 ## Flag
 
