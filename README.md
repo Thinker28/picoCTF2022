@@ -1,6 +1,5 @@
 # PicoCTF2022-Writeup
-For the sole purpose of proving people did stuff.  
-On a side note... these are the writeups for the few challenges I managed to complete.  
+These are the writeups for the few challenges I managed to complete.  
 
 If you'd like to try some of these problems yourself, head on over to [PicoGym](https://play.picoctf.org/practice)!
 
