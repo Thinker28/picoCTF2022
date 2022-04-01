@@ -13,6 +13,7 @@ If you'd like to try some of these problems yourself, head on over to [PicoGym](
 |Question|Points|
 |--------|------|
 |[Diffie Hellman](./Cryptography/Diffie-Hellman)|200|
+|[NSA-Backdoor](./Cryptography/NSA-Backdoor)|500|
 
 </details>
 
