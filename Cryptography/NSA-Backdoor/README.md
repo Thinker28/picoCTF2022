@@ -21,7 +21,7 @@ We use Pollard p-1 to factor our modulus *n*, then we can take the discrete log 
 ## Flag
 
 ```
-
+picoCTF{e032a664}
 ```
 
 ## Detailed Solution
