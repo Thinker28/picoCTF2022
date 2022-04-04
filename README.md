@@ -22,7 +22,7 @@ If you'd like to try some of these problems yourself, head on over to [PicoGym](
 
 |Question|Points|
 |--------|------|
-
+|[Noted](https://github.com/Thinker28/picoCTF2022/tree/main/Web-Exploitation/Noted)|500|
 </details>
 
 <details>
