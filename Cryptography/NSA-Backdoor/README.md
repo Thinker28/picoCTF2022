@@ -26,7 +26,7 @@ picoCTF{e032a664}
 
 ## Detailed Solution
 
-In gen.py, we see that prmies are getting generated in the same was as the Very Smooth challenge, hence we can use Pollard p-1 to factorize N.
+In gen.py, we see that primes are getting generated in the same was as the Very Smooth challenge, hence we can use Pollard p-1 to factorize N.
 
 ```python
 import math
